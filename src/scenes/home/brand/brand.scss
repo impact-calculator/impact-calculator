@@ -1,0 +1,21 @@
+.home {
+  &__group {
+    &__brand {
+      margin: 20px 0;
+      &__logo {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 960px) {
+    .home {
+      &__group {
+        &__brand {
+          margin: 50px 0;
+        }
+      }
+    }
+  }
+  

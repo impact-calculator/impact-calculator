@@ -1,0 +1,58 @@
+@import "variables";
+@import "helpers";
+@import "fonts";
+@import "components/tooltip";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: calc(100% + 8px);
+  margin: 0 0 1em 0;
+  padding-top: 2em;
+}
+
+p {
+  font-size: $font-small;
+  line-height: calc(100% + 8px);
+}
+
+h1 {
+  font-size: $font-huge;
+  font-weight: 900;
+  color: $green-dark;
+}
+
+h2 {
+  font-size: $font-large;
+  color: $black;
+}
+
+h3 {
+  font-size: $font-medium;
+}
+
+h4 {
+  font-size: $font-small;
+}
+
+h5 {
+  font-size: $font-tiny;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: $font-tiny;
+}
+
+p {
+  font-size: $font-small;
+  padding: 0;
+}
+
+small {
+  font-size: $font-tiny;
+  padding: 0;
+}

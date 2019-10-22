@@ -1,0 +1,17 @@
+.home {
+  &__group {
+    &__description {
+      margin: 50px 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .home {
+    &__group {
+      &__brand {
+        margin: 50px 0;
+      }
+    }
+  }
+}

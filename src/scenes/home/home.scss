@@ -1,0 +1,35 @@
+.home {
+  &__image {
+    img {
+      visibility: hidden;
+    }
+  }
+
+  &__info {
+    position: fixed !important;
+    bottom: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .home {
+    padding-left: 50px;
+    &__image {
+      img {
+        visibility: initial;
+        height: 100vh;
+      }
+    }
+
+    &__group {
+      &__brand {
+        margin: 50px 0;
+      }
+
+      &__description {
+        margin: 50px 0;
+      }
+    }
+  }
+}

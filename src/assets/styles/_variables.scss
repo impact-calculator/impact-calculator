@@ -1,0 +1,51 @@
+// Functional colors
+$info: #1fb6ff;
+$success: #13ce66;
+$warning: #ffc82c;
+$alert: #ff4949;
+
+// Neutral colors
+$lighter-gray: rgb(245, 245, 245);
+$light-gray: rgb(225, 225, 225);
+$gray: rgb(200, 200, 200);
+$dark-gray: rgb(160, 160, 160);
+$darker-gray: rgb(100, 100, 100);
+$black: rgb(40, 40, 40);
+$white: #ffffff;
+
+// Brand colors (Mimoo)
+$green-lighter: #4af6da;
+$green-light: #19f4d1;
+$green: #52a5a1;
+$green-dark: #2b3c53;
+$green-darker: #08a087;
+$purple-lighter: #cdb4ff;
+$purple-light: #ab81ff;
+$purple: #9a67ff;
+$purple-dark: #894eff;
+$purple-darker: #671bff;
+
+$theme: (
+  primary: $green-dark,
+  secondary: $purple
+);
+
+$mobile: "max-width: 990px";
+
+$spacer-tiny: 8px;
+$spacer-small: 16px;
+$spacer-medium: 24px;
+$spacer-large: 32px;
+$spacer-huge: 40px;
+
+$font-tiny: 12px;
+$font-small: 16px;
+$font-medium: 20px;
+$font-large: 24px;
+$font-huge: 28px;
+
+$mobile: "max-width: 760px";
+$tablet: "max-width: 990px";
+$desktop: "max-width: 1400px";
+
+$transition: all 0.25s ease-in-out;

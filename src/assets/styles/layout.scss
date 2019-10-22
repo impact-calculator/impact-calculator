@@ -1,0 +1,99 @@
+@import "theme";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  background-color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  background-color: #fff;
+
+  .layout-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+}
+
+.main {
+  flex: 1;
+}
+
+.page {
+  padding: $spacer-huge;
+  height: 100%;
+  padding: 60px 0 0 0;
+}
+
+.content {
+  margin: 0 12.28%;
+  width: 284px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 20;
+
+  .content-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 400px;
+
+    h1 {
+      padding-top: 0;
+    }
+  }
+
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: $spacer-medium;
+    button {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.link-default {
+  color: map-get($theme, primary);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: $font-small;
+  line-height: 44px;
+
+  i {
+    margin-right: 10px;
+  }
+}
+
+label {
+  font: $font-tiny "Poppins", sans-serif;
+}
